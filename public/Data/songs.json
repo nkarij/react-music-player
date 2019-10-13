@@ -1,0 +1,9 @@
+[
+    { "id": "1", "title": "November Rain", "band": "Gun´s n Roses", "image": "https://dummyimage.com/200x200/b32276/fff.png", "audiosrc": "./Audio/dirt-rhodes-by-kevin-macleod.mp3" },
+    { "id": "2", "title": "Chop Suey", "band": "System of a down", "image": "https://dummyimage.com/200x200/b32276/fff.png", "audiosrc": "./Audio/feelin-good-by-kevin-macleod.mp3" },
+    { "id": "3", "title": "The Troopers", "band": "Iron Maiden", "image": "https://dummyimage.com/200x200/b32276/fff.png", "audiosrc": "./Audio/five-card-shuffle-by-kevin-macleod.mp3 " },
+    { "id": "4", "title": "Heavens Door", "band": "Gun´s n Roses", "image": "https://dummyimage.com/200x200/1d8510/fff.png", "audiosrc": "./Audio/hustle-by-kevin-macleod.mp3 " },
+    { "id": "5", "title": "Respect", "band": "Aretha Franklin", "image": "https://dummyimage.com/200x200/1d8510/fff.png", "audiosrc": "./Audio/slow-burn-by-kevin-macleod.mp3 " },
+    { "id": "6", "title": "Blue Moon", "band": "Frank Sinatra", "image": "https://dummyimage.com/200x200/1d8510/fff.png", "audiosrc": "./Audio/surf-shimmy-by-kevin-macleod.mp3 " },
+    { "id": "7", "title": "Eluveitie", "band": "Inis Mona", "image": "https://dummyimage.com/200x200/b32276/fff.png", "audiosrc": "./Audio/whiskey-on-the-mississippi-by-kevin-macleod.mp3 " }
+]

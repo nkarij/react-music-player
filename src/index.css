@@ -1,0 +1,180 @@
+:root {
+  --theme-color: #ff4061;
+  --headingsFont: 'Playfair Display', serif;
+  --sansSerifFont: 'Montserrat', sans-serif; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: var(--headingsFont);
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  /* color: #ff4061; */
+}
+
+
+/* GLOBAL ------------------------------- */
+
+.header__heading {
+  font-size: 2.8rem;
+}
+
+
+/* FRONT PAGE ------------------------------- */
+
+/* top played list */
+
+.top-list {
+  display: block;
+  width: 100%;
+  /* height: 25vh; */
+  overFlow: hidden;
+  /* border: 1px solid blue; */
+  /* margin-bottom: 5rem 0; */
+  overFlow: hidden;
+}
+
+.top-item__link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black
+}
+
+.top-item__figcaption {
+  flex-grow: 5;
+  flex-shrink: 5;
+}
+
+
+
+
+/* all time hitlist */
+
+.alltime-list {
+  display: block;
+  width: 100%;
+  /* border: 1px solid blue; */
+  /* margin-bottom: 5rem 0; */
+}
+
+
+
+/* PLAYER PAGE */
+.player__featured-image-wrapper {
+  width: 15rem;
+  height: 15rem;
+}
+
+.player__featured-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.waveform-image-wrapper {
+  width: 100%;
+  height: 4rem;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+.waveform-image {
+  width: 100%;
+  height: 100%;
+}
+
+/* NAVIGATION STICKY FOOTER */
+.Nav__menulink {
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+}
+
+.Nav__menulink.active {
+  opacity: 1;
+}
+
+/* PLAYLIST PAGE */
+
+.playlist__song {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.playlist__imagewrap {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+}
+
+.playlist__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.playlist__image-text {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  margin: 0;
+}
+
+.playlist__texts {
+  flex-grow: 10;
+  flex-shrink: 10;
+}
+
+.playlist__playbutton {
+  /* display: none; */
+  margin-right: 2rem;
+}
+
+.playlist__playbutton 
+/* .fa-pause-circle, .fa-play-circle  */
+{
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--theme-color);
+}
+
+.playlist__menu .fa-star {
+  font-size: 20px;
+  color: var(--theme-color);
+  background-color: #f3f3f381
+}
