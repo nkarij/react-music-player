@@ -137,7 +137,8 @@ const styles = {
   },
   figcaption: {
     flexGrow: 5,
-    flexShrink: 5
+    flexShrink: 5,
+    borderBottom: '0.5px solid #eeebeb',
   },
   text: {
       margin: 0,

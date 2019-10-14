@@ -71,6 +71,7 @@ li {
 .top-item__figcaption {
   flex-grow: 5;
   flex-shrink: 5;
+  border-bottom: 0.5px solid #eeebeb;
 }
 
 
@@ -158,7 +159,9 @@ li {
 .playlist__texts {
   flex-grow: 10;
   flex-shrink: 10;
+  border-bottom: 0.2px solid #ecececfb;
 }
+
 
 .playlist__playbutton {
   /* display: none; */

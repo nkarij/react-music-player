@@ -88,6 +88,8 @@ const styles = {
     width: '100%',
     // height: '',
     margin: '1rem 0',
+    // borderBottom: '0.5px solid #eeebeb',
+    // borderTop: '0.5px solid #eeebeb',
   },
   link: {
     display: 'flex',
